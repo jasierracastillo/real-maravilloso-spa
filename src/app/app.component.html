@@ -1,10 +1,9 @@
-<!-- 
-<app-nav></app-nav>
+<!-- <app-nav></app-nav>
 <app-header></app-header>
 
-@defer (on viewport){
 <app-band></app-band>
-} @placeholder (minimum 2000ms) {
+@defer (on viewport){
+} @placeholder (minimum 1000ms) {
 <div>Loading..</div>
 }
 
@@ -17,12 +16,9 @@
 }
 
 <app-shango></app-shango>
+<app-studio></app-studio>
 
 @defer (on viewport){
-<app-studio></app-studio>
-} @placeholder (minimum 2000ms) {
-<div>Loading..</div>
-} @defer (on viewport){
 <app-concert></app-concert>
 } @placeholder (minimum 2000ms) {
 <div>Loading..</div>
